@@ -1,16 +1,14 @@
-// importovanje biblioteka
+
 import React from "react";
 import { Text, StyleSheet, View } from "react-native";
 
-//kreiranje komponente
-const Screen1 = () => {
+const GreetingScreen = () => {
 
     return <View style={style.container}>
-        <Text style={style.textStyle}>This is screen 1!</Text>
+        <Text style={style.textStyle}>Hello World!</Text>
     </View>
-}; //sintaksa za kreiranje komponente
+}; 
 
-//kreiranje stylesheeta
 
 const style = StyleSheet.create({
     container: {
@@ -26,4 +24,4 @@ const style = StyleSheet.create({
 });
 
 //eksportovanje komponente
-export default Screen1;
+export default GreetingScreen;
