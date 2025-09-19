@@ -6,6 +6,7 @@ import MainScreen from "./screens/MainScreen";
 
 import Screen1 from './screens/screen1';
 import GreetingScreen from './screens/greetingScreen';
+import ProfileScreen from './screens/profileScreen';
 
 const Stack = createStackNavigator();
 
@@ -14,7 +15,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         
-        <Stack.Screen name="Home" component={GreetingScreen}></Stack.Screen>
+        <Stack.Screen name="Home" component={ProfileScreen}></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );
