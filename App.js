@@ -5,8 +5,11 @@ import { createStackNavigator } from '@react-navigation/stack';
 import MainScreen from "./screens/MainScreen";
 
 import Screen1 from './screens/screen1';
-import GreetingScreen from './screens/greetingScreen';
+//import GreetingScreen from './screens/greetingScreen';
 import ProfileScreen from './screens/profileScreen';
+import ExerciseScreen from './screens/exerciseScreen';
+import MessageChellange from './screens/messageChellangeSc';
+import QuoteScreen from './screens/quoteScreen';
 
 const Stack = createStackNavigator();
 
@@ -15,7 +18,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         
-        <Stack.Screen name="Home" component={ProfileScreen}></Stack.Screen>
+        <Stack.Screen name="Home" component={QuoteScreen}></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );
