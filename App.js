@@ -10,6 +10,8 @@ import ProfileScreen from './screens/profileScreen';
 import ExerciseScreen from './screens/exerciseScreen';
 import MessageChellange from './screens/messageChellangeSc';
 import QuoteScreen from './screens/quoteScreen';
+import FactScreen from './screens/factScreen';
+import ListScreen from './screens/listScreen';
 
 const Stack = createStackNavigator();
 
@@ -18,7 +20,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         
-        <Stack.Screen name="Home" component={QuoteScreen}></Stack.Screen>
+        <Stack.Screen name="Home" component={ListScreen}></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );
