@@ -12,6 +12,9 @@ import MessageChellange from './screens/messageChellangeSc';
 import QuoteScreen from './screens/quoteScreen';
 import FactScreen from './screens/factScreen';
 import ListScreen from './screens/listScreen';
+import StudentScreen from './screens/studentScreen';
+import ButtonScreen from './screens/buttonScreen';
+import QuizScreen from './screens/quizScreen';
 
 const Stack = createStackNavigator();
 
@@ -20,7 +23,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         
-        <Stack.Screen name="Home" component={ListScreen}></Stack.Screen>
+        <Stack.Screen name="Quiz Screen" component={QuizScreen}></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );
