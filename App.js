@@ -19,6 +19,8 @@ import QuizScreen from './screens/quizScreen';
 import MainScreen from './screens/MainScreen';
 import MenuScreen from './screens/menuScreen';
 import UcenikScreen from './screens/ucenikScreen';
+import HomeScreen from './screens/homeScreen';
+import ProfileScreen from './screens/profileScreen';
 
 
 const Stack = createStackNavigator();
@@ -34,8 +36,9 @@ export default function App() {
         <Stack.Screen name="Main" component={MainScreen}></Stack.Screen>
         <Stack.Screen name="Menu" component={MenuScreen}></Stack.Screen>
         <Stack.Screen name="Button" component={ButtonScreen}></Stack.Screen>
-        
-       <Stack.Screen name="Ucenik" component={UcenikScreen}></Stack.Screen>
+        <Stack.Screen name="Home" component={HomeScreen}></Stack.Screen>
+        <Stack.Screen name="Profile" component={ProfileScreen}></Stack.Screen>
+        <Stack.Screen name="Ucenik" component={UcenikScreen}></Stack.Screen>
        
 
       </Stack.Navigator>
