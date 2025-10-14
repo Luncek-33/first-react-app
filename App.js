@@ -21,6 +21,7 @@ import MenuScreen from './screens/menuScreen';
 import UcenikScreen from './screens/ucenikScreen';
 import HomeScreen from './screens/homeScreen';
 import ProfileScreen from './screens/profileScreen';
+import ProfilScreen from './screens/profilScreen';
 
 
 const Stack = createStackNavigator();
@@ -29,7 +30,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Menu">
+      <Stack.Navigator initialRouteName="Profil">
         
         <Stack.Screen name="Quiz" component={QuizScreen}></Stack.Screen>
         <Stack.Screen name="List" component={ListScreen}></Stack.Screen>
@@ -39,6 +40,7 @@ export default function App() {
         <Stack.Screen name="Home" component={HomeScreen}></Stack.Screen>
         <Stack.Screen name="Profile" component={ProfileScreen}></Stack.Screen>
         <Stack.Screen name="Ucenik" component={UcenikScreen}></Stack.Screen>
+        <Stack.Screen name="Profil" component={ProfilScreen}></Stack.Screen>
        
 
       </Stack.Navigator>
