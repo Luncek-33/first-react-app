@@ -22,6 +22,9 @@ import UcenikScreen from './screens/ucenikScreen';
 import HomeScreen from './screens/homeScreen';
 import ProfileScreen from './screens/profileScreen';
 import ProfilScreen from './screens/profilScreen';
+import BoxScreen from './screens/boxScreen';
+import BoxScreenChellange from './screens/boxScreenChellange';
+import AdvancedBoxScreenChellange from './screens/advancedScreenChellange';
 
 
 const Stack = createStackNavigator();
@@ -30,7 +33,7 @@ const Stack = createStackNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Profil">
+      <Stack.Navigator initialRouteName="Menu">
         
         <Stack.Screen name="Quiz" component={QuizScreen}></Stack.Screen>
         <Stack.Screen name="List" component={ListScreen}></Stack.Screen>
@@ -41,6 +44,9 @@ export default function App() {
         <Stack.Screen name="Profile" component={ProfileScreen}></Stack.Screen>
         <Stack.Screen name="Ucenik" component={UcenikScreen}></Stack.Screen>
         <Stack.Screen name="Profil" component={ProfilScreen}></Stack.Screen>
+        <Stack.Screen name="Box" component={BoxScreen}></Stack.Screen>
+        <Stack.Screen name="Ch1" component={BoxScreenChellange}></Stack.Screen>
+        <Stack.Screen name="Ch1a" component={AdvancedBoxScreenChellange}></Stack.Screen>
        
 
       </Stack.Navigator>
