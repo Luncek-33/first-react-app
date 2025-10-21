@@ -25,6 +25,10 @@ import ProfilScreen from './screens/profilScreen';
 import BoxScreen from './screens/boxScreen';
 import BoxScreenChellange from './screens/boxScreenChellange';
 import AdvancedBoxScreenChellange from './screens/advancedScreenChellange';
+import PostScreen from './screens/postScreen';
+import UsersScreen from './screens/usersScreen';
+import UsersPostScreen from './screens/usersPostScreen';
+import UsersDetailsScreen from './screens/UsersDetailsScreen';
 
 
 const Stack = createStackNavigator();
@@ -47,6 +51,11 @@ export default function App() {
         <Stack.Screen name="Box" component={BoxScreen}></Stack.Screen>
         <Stack.Screen name="Ch1" component={BoxScreenChellange}></Stack.Screen>
         <Stack.Screen name="Ch1a" component={AdvancedBoxScreenChellange}></Stack.Screen>
+        <Stack.Screen name="Posts" component={PostScreen}></Stack.Screen>
+        <Stack.Screen name="Users" component={UsersScreen}></Stack.Screen>
+        <Stack.Screen name="UPSc" component={UsersPostScreen}></Stack.Screen>
+        <Stack.Screen name="UDSc" component={UsersDetailsScreen}></Stack.Screen>
+       
        
 
       </Stack.Navigator>
