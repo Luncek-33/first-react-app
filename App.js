@@ -29,6 +29,8 @@ import PostScreen from './screens/postScreen';
 import UsersScreen from './screens/usersScreen';
 import UsersPostScreen from './screens/usersPostScreen';
 import UsersDetailsScreen from './screens/UsersDetailsScreen';
+import PhotosScreen from './screens/imageScreen';
+import PhotoDetailsScreen from './screens/PhotoDetailScreen';
 
 
 const Stack = createStackNavigator();
@@ -55,6 +57,8 @@ export default function App() {
         <Stack.Screen name="Users" component={UsersScreen}></Stack.Screen>
         <Stack.Screen name="UPSc" component={UsersPostScreen}></Stack.Screen>
         <Stack.Screen name="UDSc" component={UsersDetailsScreen}></Stack.Screen>
+        <Stack.Screen name="Photos" component={PhotosScreen}></Stack.Screen>
+        <Stack.Screen name="PhotoDetail" component={PhotoDetailsScreen}></Stack.Screen>
        
        
 
