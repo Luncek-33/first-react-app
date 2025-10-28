@@ -31,6 +31,8 @@ import UsersPostScreen from './screens/usersPostScreen';
 import UsersDetailsScreen from './screens/UsersDetailsScreen';
 import PhotosScreen from './screens/imageScreen';
 import PhotoDetailsScreen from './screens/PhotoDetailScreen';
+import CountriesScreen from './screens/countriesScreen';
+import CountryDetail from './screens/countryDetail';
 
 
 const Stack = createStackNavigator();
@@ -59,7 +61,8 @@ export default function App() {
         <Stack.Screen name="UDSc" component={UsersDetailsScreen}></Stack.Screen>
         <Stack.Screen name="Photos" component={PhotosScreen}></Stack.Screen>
         <Stack.Screen name="PhotoDetail" component={PhotoDetailsScreen}></Stack.Screen>
-       
+        <Stack.Screen name="Countries" component={CountriesScreen}></Stack.Screen>
+        <Stack.Screen name="CountryDetails" component={CountryDetail}></Stack.Screen>
        
 
       </Stack.Navigator>

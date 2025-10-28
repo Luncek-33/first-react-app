@@ -53,6 +53,10 @@ const MenuScreen = (props) => {
         title="Go to Photos screen"
         onPress={() => props.navigation.navigate("Photos")}
       />
+        <Button
+        title="Go to Countries screen"
+        onPress={() => props.navigation.navigate("Countries")}
+      />
     </View>
     
 
