@@ -38,6 +38,8 @@ import WeatherScreen from './screens/weatherScreen';
 import ColorScreen from './screens/colorScreen';
 import NumbersScreen from './screens/numberScreen';
 import MoviesScreen from './screens/movieScreen';
+import ProductScreen from './screens/productsScreen';
+import Product from './screens/components/products';
 
 
 const Stack = createStackNavigator();
@@ -72,6 +74,8 @@ export default function App() {
         <Stack.Screen name="Color" component={ColorScreen}></Stack.Screen>
         <Stack.Screen name="Number" component={NumbersScreen}></Stack.Screen>
         <Stack.Screen name="Movie" component={MoviesScreen}></Stack.Screen>
+        <Stack.Screen name="ProductSc" component={ProductScreen}></Stack.Screen>
+         <Stack.Screen name="Product" component={Product}></Stack.Screen>
        
        
 

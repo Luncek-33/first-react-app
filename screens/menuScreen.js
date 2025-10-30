@@ -73,6 +73,10 @@ const MenuScreen = (props) => {
         title="Go to Movie screen"
         onPress={() => props.navigation.navigate("Movie")}
       />
+       <Button
+        title="Go to Products screen"
+        onPress={() => props.navigation.navigate("ProductSc")}
+      />
     </View>
     
 
