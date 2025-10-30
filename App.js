@@ -35,6 +35,9 @@ import CountriesScreen from './screens/countriesScreen';
 import CountryDetail from './screens/countryDetail';
 import { StackScreen } from 'react-native-screens';
 import WeatherScreen from './screens/weatherScreen';
+import ColorScreen from './screens/colorScreen';
+import NumbersScreen from './screens/numberScreen';
+import MoviesScreen from './screens/movieScreen';
 
 
 const Stack = createStackNavigator();
@@ -66,6 +69,9 @@ export default function App() {
         <Stack.Screen name="Countries" component={CountriesScreen}></Stack.Screen>
         <Stack.Screen name="CountryDetails" component={CountryDetail}></Stack.Screen>
         <Stack.Screen name="Weather" component={WeatherScreen}></Stack.Screen>
+        <Stack.Screen name="Color" component={ColorScreen}></Stack.Screen>
+        <Stack.Screen name="Number" component={NumbersScreen}></Stack.Screen>
+        <Stack.Screen name="Movie" component={MoviesScreen}></Stack.Screen>
        
        
 
