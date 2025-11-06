@@ -1,22 +1,28 @@
 import React from "react";
-import { View, Text, Image, StyleSheet } from "react-native";
+import { View, Text, Image, StyleSheet, Button } from "react-native";
 
 class Product extends React.Component {
     render() {
-        const {name, stock, price, image} = this.props.data;
+        const { name, stock, price, image } = this.props.data;
+        const { onAddToCart } = this.props;
 
-        return(
+        return (
             <View style={styles.card}>
-                <Image source={{uri:image}} style={styles.productImg}></Image>
+                <Image source={{ uri: image }} style={styles.productImg} />
                 <Text style={styles.Name}>{name}</Text>
                 <Text>Stock: {stock}</Text>
-                <Text>Price :{price}</Text>
+                <Text>Price: {price}$</Text>
+
+                <Button 
+                    title="Add to Cart"
+                    onPress={() => onAddToCart(this.props.data)}
+                />
             </View>
         );
     }
 }
 
-const styles= StyleSheet.create({
+const styles = StyleSheet.create({
     card: {
         backgroundColor:"#fff",
         padding:12,

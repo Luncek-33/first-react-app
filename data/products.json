@@ -3,7 +3,7 @@
         "id" : 1,
         "name": "Nike JA 3",
         "category" : "shoes",
-        "price": "270$",
+        "price": "270",
         "stock": "Yes",
         "image": "https://extrabutterny.com/cdn/shop/files/HF2793-600-1x.jpg?v=1755024502",
         "description" : "Low top basketball shoes"
@@ -13,7 +13,7 @@
         "id" : 2,
         "name": "Samsung z fold 7",
         "category" : "technology",
-        "price": "2219$",
+        "price": "2219",
         "stock": "Yes",
         "image": "https://images.samsung.com/uk/smartphones/galaxy-z-fold7/buy/05_Color_Selection/Q7_Color_Selection_BlueShadow_MO.png",
         "description" : "Low top basketball shoes"
@@ -23,7 +23,7 @@
         "id" : 3,
         "name": "Ryzen 9 CPU",
         "category" : "technology",
-        "price": "300$",
+        "price": "300",
         "stock": "Yes",
         "image": "https://m.media-amazon.com/images/I/51S-lEYQZJL.jpg",
         "description" : "Central processing unit"
@@ -33,7 +33,7 @@
         "id" : 4,
         "name": "Nike Hoops Elite",
         "category" : "sports gear",
-        "price": "170$",
+        "price": "170",
         "stock": "Yes",
         "image": "https://img01.ztat.net/article/spp-media-p1/b72439041cf34176bc5baf672d029e72/6b95a71550bc42719ba6e4acb089b9c1.jpg?imwidth=1800",
         "description" : "Backpack for hoopers"
@@ -43,7 +43,7 @@
         "id" : 5,
         "name": "Hoodie Essentials Oversized",
         "category" : "chlotes",
-        "price": "100$",
+        "price": "100",
         "stock": "Yes",
         "image": "https://averlo.com.au/cdn/shop/files/172_1105a3e1-c586-4c17-903a-4ba2fee4b862.png?v=1755658438&width=1000",
         "description" : "Everyday hoodie"
@@ -53,7 +53,7 @@
         "id" : 6,
         "name": "Molten size 6 basketball",
         "category" : "sports gear",
-        "price": "150$",
+        "price": "150",
         "stock": "Yes",
         "image": "https://contents.mediadecathlon.com/p1907033/k$5e1d385f327edd5b214093df2fcd3446/basketball-b6g-4500.jpg",
         "description" : "Womens basketball"
@@ -63,7 +63,7 @@
         "id" : 7,
         "name": "Apple watch series 10",
         "category" : "technology",
-        "price": "250$",
+        "price": "250",
         "stock": "Yes",
         "image": "https://m.media-amazon.com/images/I/61bJZx1v8GL._AC_SL1500_.jpg",
         "description" : "Smart Watch"
@@ -73,7 +73,7 @@
         "id" : 8,
         "name": "Ibanez gio",
         "category" : "guitars",
-        "price": "500$",
+        "price": "500",
         "stock": "Yes",
         "image": "https://sc1.musik-produktiv.com/pic-100018296l/ibanez-gio-grg170dx-bkn.jpg",
         "description" : "Electric Guitar"

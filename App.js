@@ -40,6 +40,7 @@ import NumbersScreen from './screens/numberScreen';
 import MoviesScreen from './screens/movieScreen';
 import ProductScreen from './screens/productsScreen';
 import Product from './screens/components/products';
+import CartScreen from './screens/CartScreen';
 
 
 const Stack = createStackNavigator();
@@ -75,7 +76,8 @@ export default function App() {
         <Stack.Screen name="Number" component={NumbersScreen}></Stack.Screen>
         <Stack.Screen name="Movie" component={MoviesScreen}></Stack.Screen>
         <Stack.Screen name="ProductSc" component={ProductScreen}></Stack.Screen>
-         <Stack.Screen name="Product" component={Product}></Stack.Screen>
+        <Stack.Screen name="Product" component={Product}></Stack.Screen>
+        <Stack.Screen name="Cart" component={CartScreen}></Stack.Screen>
        
        
 
